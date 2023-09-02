@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="search-area">
+            <input class="search-box" type="text">
+            <button class="search-button">
+                <img id="search-icon" src="assets/search-icon.png" alt="">
+            </button>
+        </div>
+
+        <div class="weather-icon-box">
+            <img class="weather-icon" src="assets/sunny.png" alt="">
+        </div>
+
+        <div class="temp-box">
+            <p class="temp-display">7°c</p>
+            <p class="location"> New York</p>
+        </div>
+
+        <div class="info">
+            <div class="humidity-box">
+                <div class="humidity-stats">
+                    <div class="hum-icon-box">
+                        <img class="hum-icon" src="assets/humidity.png" alt="">
+                    </div>
+                    <div class="hum-info-box">
+                        <div class="hum-value-box">
+                            <p class="hum-value">
+                                48%
+                            </p>
+                        </div>
+                        <div class="hum-text-box">
+                            <p class="hum-text">
+                                Humidity
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wind-box">
+                <div class="wind-stats">
+                    <div class="wind-icon-box">
+                        <img class="wind-icon" src="assets/wind.png" alt="">
+                    </div>
+                    <div class="wind-info-box">
+                        <div class="wind-value-box">
+                            <p class="wind-value">
+                                102.9 km/h
+                            </p>
+                        </div>
+                        <div class="wind-text-box">
+                            <p class="wind-text">
+                                Wind
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
